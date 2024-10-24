@@ -1,0 +1,32 @@
+@media (max-width: 768px) {
+  .container {
+    padding: 0px 16px;
+  }
+
+  .header-nav {
+    display: none;
+  }
+
+  .logo {
+    font-size: 22px;
+  }
+
+  .burger-menu {
+    display: block;
+  }
+
+  .main-content {
+    flex-direction: column-reverse;
+    align-items: center;
+    text-align: center;
+    row-gap: 38px;
+    margin-top: 33px;
+  }
+
+  .main-heading {
+    font-size: 32px;
+    line-height: 40px;
+  }
+}
+
+
